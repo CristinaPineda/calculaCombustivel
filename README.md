@@ -9,10 +9,10 @@ Código: 1
 Código: 2
 Gasolina preço/litro: R$4,19.
 
-###
 Crie um programa que mostre o código do combustível escolhido, a quantidade dele em litros e o valor a ser pago pelo cliente. 
 Aprimore-o para que ele exiba uma mensagem ao usuário caso este digite um código não existente.
 
-SOMENTE O ARQUIVO DA PASTA SCRIPTS, INTITULADO programCalculaCombustivel.js CONTÉM A RESPOSTA DO PROJETO ORIGINAL PROPOSTO,
+###
+OBS: SOMENTE O ARQUIVO DA PASTA SCRIPTS, INTITULADO programaCalculaCombustivel.js CONTÉM A RESPOSTA DO PROJETO ORIGINAL PROPOSTO,
 TODOS OS OUTROS ARQUIVOS FORAM FEITOS PARA EXERCITAR OUTROS CONCEITOS. 
 ###
