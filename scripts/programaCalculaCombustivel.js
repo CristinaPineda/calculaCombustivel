@@ -18,22 +18,23 @@ Aprimore-o para que ele exiba uma mensagem ao usuário caso este digite um códi
 O CÓDIGO ABAIXO É O SOLICITADO NO PROJETO DA HSM CODE SCHOOL
 **/
 
-var codigo = {1: 'Álcool', 2: 'Gasolina'};
+var codigo = {'Álcool':1, 'Gasolina':2};
 var precoAlcool = 3.16;
 var precoGasolina = 4.19;
 var litros = 0;
-
+codigo = prompt("Digite um código de combustivel: ")
 
 if(codigo == 1){
     litros = prompt('Digite a quantidade de litros: ');      
-    var pagamento = litros * precoAlcool;
+    var pagamento = (litros * precoAlcool).toFixed(2);
     document.write('Valor a pagar: '+ pagamento);
 }if(codigo == 2){
     litros = prompt('Digite a quantidade de litros: '); 
-    var pagamento = litros * precoGasolina;
+    var pagamento = (litros * precoGasolina).toFixed(2);
     document.write('Valor a pagar: '+ pagamento);
 }else{
-    document.write('Entre com um código de combustivel válido');
+	alert('Digite um código válido!')
 }
+
 
 
